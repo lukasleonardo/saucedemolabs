@@ -1,0 +1,40 @@
+1-Login Básico:
+
+Navegar até a página de login.
+Preencher os campos de usuário e senha.
+Clicar no botão de login.
+Verificar se o usuário foi redirecionado corretamente para a página inicial após o login.
+
+---
+2 -Adicionar Produto ao Carrinho:
+
+Logar no sistema (usar um caso de teste anterior para login).
+Navegar até a página de produtos.
+Adicionar um produto ao carrinho.
+Verificar se o produto foi adicionado corretamente ao carrinho.
+
+----
+3-Remover Produto do Carrinho:
+
+Logar no sistema (usar um caso de teste anterior para login).
+Navegar até a página de carrinho.
+Remover um produto do carrinho.
+Verificar se o produto foi removido corretamente do carrinho.
+
+---
+4-Ordenar Produtos por Preço:
+
+Logar no sistema (usar um caso de teste anterior para login).
+Navegar até a página de produtos.
+Selecionar a opção para ordenar os produtos por preço.
+Verificar se os produtos são exibidos em ordem crescente de preço.
+
+---
+5-Finalizar Compra:
+
+Logar no sistema (usar um caso de teste anterior para login).
+Adicionar produtos ao carrinho.
+Navegar até a página de checkout.
+Preencher informações de envio e pagamento.
+Finalizar a compra.
+Verificar se a compra foi concluída com sucesso.
