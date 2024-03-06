@@ -23,11 +23,16 @@ describe('Carrinho de compras',()=>{
     cy.get('span.shopping_cart_badge').should('have.text','5')
     cy.get('a.shopping_cart_link').click()
     // item list
-    cy.get('div.cart_item')
+    cy.get('div.cart_list').get('.cart_item').should('have.length.above', 3)
+
+    cy.getBySel('remove-sauce-labs-backpack').click()
+    cy.getBySel('remove-sauce-labs-bike-light').click()
+    cy.get('div.cart_list').get('.cart_item').should('have.length.above', 2)
   })
 
-  afterEach('Encerrando testes',()=>{
 
+
+  afterEach('Encerrando testes',()=>{
     cy.logout()
   })
 })

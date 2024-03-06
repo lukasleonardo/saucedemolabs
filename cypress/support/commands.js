@@ -41,6 +41,7 @@ Cypress.Commands.add('logout', ()=>{
   cy.get("#react-burger-menu-btn").click()
   cy.get("#reset_sidebar_link").click()
   cy.reload()
+  cy.get("#react-burger-menu-btn").click()
   cy.get("#logout_sidebar_link").click()
 })
 
